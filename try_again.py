@@ -32,7 +32,7 @@ Assignment Operators:
     4. *= -> ex: x *= 5 same as x = x * 5
     5. /= -> ex: x /= 5 same as x = x / 5
     6. %= -> ex: x %= 5 same as x = x % 5
-    7. // -> ex: x //= 5 same as x = x // 5
+    7. //= -> ex: x //= 5 same as x = x // 5
     8. **= -> ex: x **= 5 same as x = x ** 5
 """
 
@@ -53,7 +53,7 @@ print(x == y)  # returns True because x and ys contents are the same
 
 # #2 ex
 print(x is not y)  # returns True because x and y are not the same object
-print(x is not z)  # returns False because x and y are the same exact object
+print(x is not z)  # returns False because x and z are the same exact object
 print(x != y)  # returns False because x and ys contents are the same
 
 """
